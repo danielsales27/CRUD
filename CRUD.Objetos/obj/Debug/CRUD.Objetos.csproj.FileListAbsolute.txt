@@ -1,0 +1,4 @@
+C:\Users\DanielSales\Desktop\CRUD\CRUD.Objetos\bin\Debug\CRUD.Objetos.dll
+C:\Users\DanielSales\Desktop\CRUD\CRUD.Objetos\bin\Debug\CRUD.Objetos.pdb
+C:\Users\DanielSales\Desktop\CRUD\CRUD.Objetos\obj\Debug\CRUD.Objetos.dll
+C:\Users\DanielSales\Desktop\CRUD\CRUD.Objetos\obj\Debug\CRUD.Objetos.pdb

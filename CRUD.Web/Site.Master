@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="CRUD.Web.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    <form id="frmMestre" runat="server">
+        <div id="cabecalho">
+            <h2>Prédio CRUD</h2>
+            <asp:HyperLink ID="lnkInicio" runat="server" NavigateUrl="~/Default.aspx">Início</asp:HyperLink>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:HyperLink ID="lnkApartamentos" runat="server" NavigateUrl="~/Apartamentos/Listar.aspx">Apartamentos</asp:HyperLink>
+            <hr />
+        </div>
+
+        <div id="conteudo">
+            <asp:ContentPlaceHolder ID="CpfConteudo" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <div id="rodape">
+            <hr />
+            <p>Todos os direitos reservados</p>
+        </div>
+    </form>
+</body>
+</html>
